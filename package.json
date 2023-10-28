@@ -1,0 +1,17 @@
+{
+  "name": "codeinwp-env",
+  "version": "1.0.0",
+  "description": "Codeinwp local env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/env": "^8.1.1"
+  },
+  "scripts": {
+    "wp-env": "wp-env"
+  }
+}

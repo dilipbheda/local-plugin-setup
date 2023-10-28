@@ -1,0 +1,23 @@
+{
+    "phpVersion": "8.2",
+    "config": {
+        "WP_DEBUG": true,
+        "WP_DEBUG_LOG": "./debug.log",
+        "WP_DEBUG_DISPLAY": true,
+        "WP_DEBUG_DISPLAY": true,
+        "SCRIPT_DEBUG": false,
+        "FS_METHOD": "direct",
+        "WP_MEMORY_LIMIT": "1024M",
+        "HESTIA_DEBUG": true,
+        "WP_ENVIRONMENT_TYPE": "development"
+    },
+    "mappings": {
+        "wp-content/mu-plugins": "/var/www/html/local-plugin-setup/wp-content/mu-plugins",
+        "wp-content/uploads": "/var/www/html/local-plugin-setup/wp-content/uploads",
+        "wp-content/plugins": "/var/www/html/local-plugin-setup/wp-content/plugins",
+        "wp-content/themes": "/var/www/html/local-plugin-setup/wp-content/themes"
+    },
+    "env": {
+        "development": {}
+    }
+}
