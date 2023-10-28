@@ -1,0 +1,6 @@
+.idea
+.htaccess
+node_modules
+wp-content
+logs
+*.log
